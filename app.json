@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Fake Data",
+    "slug": "Fake-Data-Generator-App",
+    "version": "1.0.0",
+    "owner": "project-design",
+    "orientation": "portrait",
+    "icon": "./assets/triangleUpIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aquifi.fakedatagen"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65c2ef53-a32a-416a-96e7-a195e5e8898d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65c2ef53-a32a-416a-96e7-a195e5e8898d"
+    }
+  }
+}
